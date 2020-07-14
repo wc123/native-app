@@ -6,7 +6,7 @@ metadata:
 spec:
   # Add fields here
   version: 1.0.0
-  applicationImage: appsody-sample-springboot
+  applicationImage: docker-registry.default.svc:5000/native-app/appsody-sample-springboot
   stack: java-spring-boot2
   service:
     type: NodePort
